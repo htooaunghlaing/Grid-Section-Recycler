@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">GridSectionRecycler</string>
+
+    <string name="top_rated_movies_topic">Top Rated Movies</string>
+    <string name="most_popular_movies_topic">Most Popular Movies</string>
+    <string name="more">More</string>
+
+    <string-array name="top_rated_movies">
+        <item>The Shawshank Redemption|Crime, Drama</item>
+        <item>The Godfather|Crime, Drama</item>
+        <item>The Dark Knight|Action, Crime, Drama</item>
+        <item>Schindler\'s List|Biography, Drama, History</item>
+        <item>Gurdian of Galaxy|ABCD</item>
+        <item>Moana|ABCD</item>
+        <item>Harry Porter|ABCD</item>
+        <item>The Magician|ABCD</item>
+        <item>Saving Private Ryan|ABCD</item>
+        <item>Gurdian of Galaxy|ABCD</item>
+        <item>Moana|ABCD</item>
+        <item>Harry Porter|ABCD</item>
+        <item>The Magician|ABCD</item>
+        <item>Saving Private Ryan|ABCD</item>
+    </string-array>
+    <string-array name="most_popular_movies">
+        <item>Batman v Superman: Dawn of Justice|Action, Adventure, Fantasy </item>
+        <item>Captain America: Civil War|Action, Adventure, Sci-Fi</item>
+        <item>10 Cloverfield Lane|Drama, Horror, Mystery</item>
+        <item>Deadpool|Action, Adventure, Comedy</item>
+        <item>Gurdian of Galaxy|ABCD</item>
+        <item>Moana|ABCD</item>
+        <item>Harry Porter|ABCD</item>
+        <item>The Magician|ABCD</item>
+        <item>Saving Private Ryan|ABCD</item>
+        <item>Gurdian of Galaxy|ABCD</item>
+        <item>Moana|ABCD</item>
+        <item>Harry Porter|ABCD</item>
+        <item>The Magician|ABCD</item>
+        <item>Saving Private Ryan|ABCD</item>
+    </string-array>
+</resources>
