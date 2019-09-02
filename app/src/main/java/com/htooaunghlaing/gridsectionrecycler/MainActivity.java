@@ -1,9 +1,10 @@
 package com.htooaunghlaing.gridsectionrecycler;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         sectionAdapter.addSection(new MovieSection(getString(R.string.top_rated_movies_topic), getTopRatedMoviesList()));
         sectionAdapter.addSection(new MovieSection(getString(R.string.most_popular_movies_topic), getMostPopularMoviesList()));
 
-        RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recyclerview);
+        RecyclerView recyclerView = findViewById(R.id.recyclerview);
 
         GridLayoutManager glm = new GridLayoutManager(MainActivity.this, Constants.NUM_OF_COLUMN);
         glm.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
